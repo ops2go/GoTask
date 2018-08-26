@@ -1,42 +1,34 @@
 # GoTask
 by: Coleman Word
 
-## Design
+## API Design
 Code available in main.go
 
-/add/           POST    Add a New Task
+| ROUTE          	| METHOD 	| DESCRIPTION             	|
+|----------------	|--------	|-------------------------	|
+| /add/          	| POST   	| Add a new task          	|
+| /              	| GET    	| Get Tasks               	|
+| /complete/     	| GET    	| Show Pending Tasks      	|
+| /deleted/      	| GET    	| Show Deleted Tasks      	|
+| /edit/<id>     	| POST   	| Edit Post               	|
+| /edit/<id>     	| GET    	| Show Edit View          	|
+| /trash/<id>    	| POST   	| Send to Trash           	|
+| /delete/<id>   	| POST   	| Permanently Delete Task 	|
+| /complete/<id> 	| POST   	| Complete Tasks          	|
+| /login/        	| POST   	| Login                   	|
+| /login/        	| GET    	| Show Login Page         	|
+| /logout/       	| POST   	| Logout                  	|
+| /restore/<id>  	| POST   	| Restore a Task          	|
+| /update/<id>   	| POST   	| Update a Task           	|
+| /change/       	| GET    	| Change Password         	|
+| /register/     	| GET    	| Show Register Page      	|
+| /register/     	| POST   	| Register in Database    	|
 
-/               GET     Get Tasks
+## TO DO
+* Move HTML Rendering Client Side
+* Update Color Scheme to Black, White, and Blue
+* Add Angular/Ajax/React Front End
 
-/complete/      GET     Show Pending Tasks
-
-/deleted/       GET     Show Deleted Tasks
-
-/edit/<id>      POST    Edit Post
-
-/edit/<id>      GET     Show Edit Page
-
-/trash/<id>     POST    Send to Trash
-
-/delete/<id>    POST    Permenantly Delete   
-
-/complete/<id>  POST    Complete Task
-
-/login/         POST    Login
-
-/login/         GET     Show Login Page
-
-/logout/        POST    Logout
-
-/restore/<id>   POST    Restore Task
-
-/update/<id>    POST    Update Task
-
-/change/        GET     Show Change Password
-
-/register/      GET     Show Register Page
-
-/register/      POST    Register in Database
 
 ## DOCKER
 ```
