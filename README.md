@@ -43,3 +43,5 @@ go get -u \
     github.com/mattn/go-sqlite3     \
     github.com/gorilla/sessions     
 ```
+coleman@coleman-Inspiron-5566:~/go/src/github.com/ops2go/gotask$ echo $PATH
+/usr/local/bin/google-cloud-sdk/bin:/home/coleman/.local/bin:/home/coleman/bin:/usr/local/bin/google-cloud-sdk/bin:/home/coleman/.local/bin:/home/coleman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin

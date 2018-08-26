@@ -4,13 +4,11 @@ RUN apk add --update \
         git         \
         build-base
 RUN go get -u \
-        github.com/Masterminds/glide 
+        github.com/Masterminds/glide \
+        github.com/ops2go/gotask
 WORKDIR /go/src/github.com/ops2go/gotask
-ENV PATH=$PATH:/go/src/github.com/ops2go/gotask
-COPY . .
 EXPOSE 8081
-RUN glide install
-RUN go build -o gotask
 RUN cat schema.sql | sqlite3 tasks.db
+RUN go build
 ENTRYPOINT [ "gotask" ]
 
