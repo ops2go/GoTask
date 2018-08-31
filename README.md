@@ -25,10 +25,10 @@ Code available in main.go
 | /register/     	| POST   	| Register in Database    	|
   
 ## Screenshots
-[](https://github.com/ops2go/screenshots/blob/master/gotask/gotask-login.png?raw=true)
-[](https://github.com/ops2go/screenshots/blob/master/gotask/gotask-home.png?raw=true)
-[](https://github.com/ops2go/screenshots/blob/master/gotask/gotask-categories.png?raw=true)
-[](https://github.com/ops2go/screenshots/blob/master/gotask/gotask-add.png?raw=true)
+[](https://github.com/ops2go/gotask/blob/master/gotask-login.png?raw=true)
+[](https://github.com/ops2go/gotask/blob/master/gotask-home.png?raw=true)
+[](https://github.com/ops2go/gotask/blob/master/gotask-categories.png?raw=true)
+[](https://github.com/ops2go/gotask/blob/master/gotask-add.png?raw=true)
 
 ## TO DO
 * Move HTML Rendering Client Side
